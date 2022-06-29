@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>World Best Universities</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Blaka&family=Poppins:wght@300&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+
+</head>
+
+<body>
+    <section class="sub-header">
+        <nav>
+            <a href="index.html"><img src="image/logo1.jpg"></a>
+            <div class="nav-links" id="navLinks">
+                <i class="fa fa-times " onclick="hideMenu()"></i>
+                <ul>
+                    <li><a href="index.html">HOME</a></li>
+                    <li><a href="about.html">ABOUT</a> </li>
+                    <li><a href="course.html">COURSE</a></li>
+                    <li><a href="contact.html">CONTACT</a></li>
+                    <li><a href=" blog.html ">BLOG</a></li>
+                </ul>
+            </div><i class="fa fa-bars" onclick="showMenu()"></i>
+        </nav>
+        <h1>About Us</h1>
+    </section>
+    <!-- about us content -->
+    <section class="about-us">
+
+        <div class="row">
+            <div class="about-col">
+                <h1>We are the World Largest University</h1>
+                <P>The Chandigarh University is affiliated to the UGC and is the largest privately owned university that has more than 30,000 students from 30 different nations worldwide. This University in Chandigarh has an amazing campus and ambience for
+                    its students to help them think out of the box.
+                </P>
+
+                <a href="" class="hero-btn red-btn">EXPLORE NOW</a>
+            </div>
+            <div class="about-col">
+                <img src="image/about.jpg">
+            </div>
+
+        </div>
+    </section>
+
+    <Section class="footer">
+        <h4>About Us</h4>
+        <p>Chandigarh University is a full-fledged university established by the Punjab State Legislature<br> and is recognized by University Grants Commission under Section 2(f) with the right to confer
+            <br> degrees as per Section 22(1) of the UGC Act, 1956.</p>
+        <div class="icons">
+            <i class="fa fa-facebook "></i></a>
+            <a href="https://twitter.com/home" target="blank"><i class="fa fa-twitter "></i></a>
+            <a href="https://www.instagram.com/a_n_u_j__s_i_n_g_h_/" target="blank"> <i class="fa fa-instagram "></i></a>
+            <a href="https://www.linkedin.com/in/anujkumarsingh61/" target="blank"><i class="fa fa-linkedin "></i></a>
+            <a href="https://mail.google.com/mail/u/0/?tab=wm#inbox" target="blank"><i class="fa fa-google "></i></a>
+        </div>
+        <p>Made <i class="fa fa-heart-o "></i>By Anuj Kumar Singh
+        </p>
+    </Section>
+    <Script>
+        var naLinks = document.getElementById("navLinks");
+
+        function showMenu() {
+            navLinks.style.right = "0"
+        }
+
+        function hideMenu() {
+            navLinks.style.right = "-200px"
+        }
+    </Script>
+</body>
+
+</html>
